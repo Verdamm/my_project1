@@ -10,9 +10,9 @@ name = "Alice" #string
 a = 5
 b = 2
 
-#print(f"Сумма {a / b}")
-#print(f"Сумма {a // b}")
-#print(f"Сумма {a % b}")
+print(f"Сумма {a / b}")
+print(f"Сумма {a // b}")
+print(f"Сумма {a % b}")
 
 
 #opperation = input("введите опперацию(+, -, /, *):")
@@ -30,11 +30,9 @@ b = 2
     #print(a * b)
 
 
-#for i in range(1, 5):
-    #print(i)
+for i in range(1, 5):
+    print(i)
 
-#while a>b:
-    #print(b)
 
 def add(x, y):
     if x<y:
@@ -49,3 +47,8 @@ print(add(a,b))
 
 add_lambda = lambda x,y: x + y + 100
 print(add_lambda(1,2))
+
+
+print("all work")
+
+
